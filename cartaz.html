@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Poster</title>
+    <link rel="stylesheet" href="Biblioteca/bootstrap.min.css">
+    <link rel="stylesheet" href="Biblioteca/style02.css">
+    <link rel="stylesheet" href="style03.css">
+    <!-- <script src="script2.js"></script> -->
+    <script src="script.js"></script>
+    <script src="Biblioteca/Script02.js"></script>
+</head>
+
+<body onload="rj()">
+    <div class="container">
+        <div class="row-1 justify-content-end">
+            <input type="text" class="form-control m-5" id="maria"
+            style="width: 320px;">
+        </div>
+    </div>
+
+    <!-- ___________________________________________________ -->
+    
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-12 offset md-5">
+                <div class="shadow p-3 mb-5 bg-body rounded">
+                    <div class="card-body">
+                        <div class="align-items-start">
+                            <div class="row">
+                                <div class="col-2">
+                                    <h5>Doctor Strange</h5>
+                                    <picture><img src="imagem/Doctor Strange_(Madness).png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome18" class="nomeprod">Doctor Strange</div>
+
+                                            <div id="preco18" class="preco">24,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(18)">
+
+                                            <span id="qtd18">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(18)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>WandaVision</h5>
+                                    <picture><img src="imagem/WandaVision.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome17" class="nomeprod">WandaVision</div>
+
+                                            <div id="preco17" class="preco">20,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(17)">
+
+                                            <span id="qtd17">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(17)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Stranger Things</h5>
+                                    <picture><img src="imagem/Stranger_Things.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome16" class="nomeprod">Stranger Things</div>
+
+                                            <div id="preco16" class="preco">18,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(16)">
+
+                                            <span id="qtd16">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(16)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Se beber...</h5>
+                                    <picture><img src="imagem/Beber_naocase.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome15" class="nomeprod">Se beber não case</div>
+
+                                            <div id="preco15" class="preco">16,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(15)">
+
+                                            <span id="qtd15">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(15)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Minions</h5>
+                                    <picture><img src="imagem/minion.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome14" class="nomeprod">Minions</div>
+
+                                            <div id="preco14" class="preco">17,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(14)">
+
+                                            <span id="qtd14">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(14)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Avatar</h5>
+                                    <picture><img src="imagem/Avatar.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome13" class="nomeprod">Avatar</div>
+
+                                            <div id="preco13" class="preco">28,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(13)">
+
+                                            <span id="qtd13">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(13)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-2">
+                                    <h5>Wakanda</h5>
+                                    <picture><img src="imagem/Wakanda.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome12" class="nomeprod">Wakanda</div>
+
+                                            <div id="preco12" class="preco">22,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(12)">
+
+                                            <span id="qtd12">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(12)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+
+                                <div class="col-2">
+                                    <h5>Joker</h5>
+                                    <picture><img src="imagem/Joker.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome11" class="nomeprod">Joker</div>
+
+                                            <div id="preco11" class="preco">23,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(11)">
+
+                                            <span id="qtd11">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(11)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Interstellar</h5>
+                                    <picture><img src="imagem/Interstellar.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome10" class="nomeprod">Interstellar</div>
+
+                                            <div id="preco10" class="preco">25,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(10)">
+
+                                            <span id="qtd10">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(10)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Halo</h5>
+                                    <picture><img src="imagem/Halo.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome9" class="nomeprod">Halo</div>
+
+                                            <div id="preco9" class="preco">19,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(9)">
+
+                                            <span id="qtd9">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(9)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Black Adam</h5>
+                                    <picture><img src="imagem/Black_Adam.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome8" class="nomeprod">Black Adam</div>
+
+                                            <div id="preco8" class="preco">24,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(8)">
+
+                                            <span id="qtd8">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(8)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Moon Knight</h5>
+                                    <picture><img src="imagem/Moon_Knight.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome7" class="nomeprod">Moon Knight</div>
+
+                                            <div id="preco7" class="preco">20,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(7)">
+
+                                            <span id="qtd7">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(7)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                            </div>
+                            <div class="row mt-4">
+                                <div class="col-2">
+                                    <h5>Malevola</h5>
+                                    <picture><img src="imagem/Malevola.png" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome6" class="nomeprod">Malevola</div>
+
+                                            <div id="preco6" class="preco">14,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(6)">
+
+                                            <span id="qtd6">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(6)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Club Frontera</h5>
+                                    <picture><img src="imagem/club.jpg" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome5" class="nomeprod">strong Club Frontera</div>
+
+                                            <div id="preco5" class="preco">14,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(5)">
+
+                                            <span id="qtd5">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(5)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Uncharted</h5>
+                                    <picture><img src="imagem/uncharted.jpg" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+
+                                            <div id="nome4" class="nomeprod">Uncharted</div>
+
+                                            <div id="preco4" class="preco">17,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(4)">
+
+                                            <span id="qtd4">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(4)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Homem Aranha</h5>
+                                    <picture><img src="imagem/homem aranha.jpg" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome3" class="nomeprod">Homem Aranha</div>
+
+                                            <div id="preco3" class="preco">18,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(3)">
+
+                                            <span id="qtd3">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(3)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Spectre</h5>
+                                    <picture><img src="imagem/007.jpg" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+                                            <div id="nome2" class="nomeprod">Spectre</div>
+
+                                            <div id="preco2" class="preco"> 15,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(2)">
+
+                                            <span id="qtd2">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(2)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                                <div class="col-2">
+                                    <h5>Maze Runner</h5>
+                                    <picture><img src="imagem/maze runner.jpg" alt="img-fluid"></picture>
+                                    <tr>
+                                        <td class="prodtd">
+
+
+                                            <div id="nome1" class="nomeprod">Maze Runner</div>
+
+                                            <div id="preco1" class="preco">18,00</div>
+
+                                        </td>
+                                        <td align="center" valign="middle">
+
+                                            <input type="button" value="-" onclick="remove(1)">
+
+                                            <span id="qtd1">0</span>
+
+                                            <input type="button" value="+" onclick="adiciona(1)">
+
+                                        </td>
+                                    </tr>
+                                </div>
+                            </div>
+                            <footer class=" col-12 mt-4">
+                                <div class="align-items-center">
+                                    <h4> Calculando o preço dos filmes:</h4>
+                                    <br>
+                                    <div class="form-floating col-4 mb-3">
+                                        <tr>
+                                            <td align="center"><b>Total: <span id="total">0,00<span></b>
+                                            </td>
+                                            <td>&nbsp;</td>
+                                        </tr>
+
+                                        </table>
+                                        <div id="exibe">
+                                            
+                                        </div>
+                                        <br>
+                                    </div>
+                            </footer>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
